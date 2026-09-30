@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Scto Grotesk A", "Inter", sans-serif;
+  --font-serif: "Moulin", "Playfair Display", serif;
+}
+
+@layer base {
+  @font-face {
+    font-family: 'Scto Grotesk A';
+    src: url('/fonts/SctoGroteskA-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Moulin';
+    src: url('/fonts/Moulin-Light-Web.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #F5F2EB;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-serif);
+    font-weight: 300;
+  }
+}
+

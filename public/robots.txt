@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://sonevajani.maldivesofficial.com/sitemap.xml

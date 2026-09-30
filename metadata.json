@@ -1,0 +1,8 @@
+{
+  "name": "Remix Remix Remix Remix Remix Remix Remix Remix Remix MaldivesStays Booking Platform",
+  "description": "A premium, Airbnb-style resort booking platform focused on Maldives luxury travel, featuring high-quality photography, intuitive search UX, and modern rate comparison.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
